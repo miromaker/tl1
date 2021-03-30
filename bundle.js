@@ -2,10 +2,10 @@
 var HashtagCount = require('hashtag-count');
 
 var hc = new HashtagCount({
-  consumer_key: 'p2rnIpNPoQfqcVzJkEOT7EMbr',
-  consumer_secret: '6mkAYYPMws0V79JvieF2x1iDeau0qWlZrmnwVcspPfeNoGZM7J',
-  access_token: '30478033-4C5voiVEDJ8NQZGFRfx70Hb3oiznl708k9CDXFziJ',
-  access_token_secret: 'SLD5YxJ46daA7ARgVgCOpaMDOEX7WBctn1Uug15ZpMgpc'
+  consumer_key: '3oN6tLNqgdtZ4u8VLfbuSKfmL',
+  consumer_secret: 'iQX0lsH0iWTMASWLYePOHh0S7Ki8SIOgSyUCzHHHv73veZYgi9',
+  access_token: '30478033-PKska1FvBBZkuXiexnTFENClLj3irLSFFAuu1zU6Y',
+  access_token_secret: 'kNnd8Aqk3599YqIeFWicSPIwtYmWTk4GxyuBUTRfOqgfh'
 });
 
 // Array of hashtags to tally. Do not include # prefix.
