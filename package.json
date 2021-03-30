@@ -1,6 +1,6 @@
 {
   "name": "thoughtlight",
-  "version": "1.0.0",
+  "version": "v12.19.0",
   "description": "Thoughlight Twitter Conversation Visualizer Art",
   "main": "web.js",
   "scripts": {
