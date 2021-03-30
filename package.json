@@ -1,6 +1,6 @@
 {
   "name": "thoughtlight",
-  "version": "v12.19.0",
+  "version": "v0.1",
   "description": "Thoughlight Twitter Conversation Visualizer Art",
   "main": "web.js",
   "scripts": {
@@ -16,10 +16,11 @@
   "author": "Miroslav Lysyuk @mirotwit",
   "license": "",
   "dependencies": {
+    "hashtag-count": "^1.1.0",
     "heroku": "^7.51.0"
-  }, 
+  },
   "engines": {
-    "node": "12.19.0", 
+    "node": "12.19.0",
     "npm": "7.5.3"
   }
 }
