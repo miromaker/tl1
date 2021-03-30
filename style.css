@@ -1,0 +1,132 @@
+html {
+    background-color: #1A1A1A;
+    font-family: "Archivo", sans-serif;
+    font-size: 16px; 
+    color: rgb(249, 255, 182, 0.75);
+    text-align: center; 
+}
+
+header{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    margin: 40px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;   
+    background-color: rgb(249, 255, 182, 0.75);
+    color: #323232;
+}
+
+h1 {
+    font-size: 61px; 
+    font-weight: 700;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 28px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+h3 {
+    font-size: 19px; 
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center; 
+    color: rgb(249, 255, 182, 0.40);
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+}
+
+a {
+    color: rgb(249, 255, 182, 0.75);
+}
+
+.lightbox {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 9fr 9fr; 
+    grid-auto-rows: auto;
+    gap: 20px; 
+}
+
+.lightbox h3 {
+    grid-column: 2 / span 3; 
+    grid-row: 1 / span 1; 
+    justify-items: center;
+}
+
+#light1 {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 1; 
+    background-color: rgb(249, 255, 182, 0.75);
+    color: #323232; 
+    border-radius: 10px;
+    height: 215px; 
+}
+
+#light2 {
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 1; 
+    background-color: rgb(249, 255, 182, 0.75);
+    color: #323232; 
+    border-radius: 10px;
+    height: 215px; 
+}
+
+#light1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 50px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+
+}
+
+
+#light2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 50px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+
+}
+
+#secondheader {
+    grid-column: 2 / span 3;
+    text-align: center; 
+    color: rgb(249, 255, 182, 0.40);
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    margin: 20px; 
+}
+
+#secondheader p {
+    margin: 10px; 
+    padding: 10px; 
+    font-weight: 100; 
+}
+
+#requests {
+    padding: 20px; 
+}
+
+#switch {
+    display: inline; 
+}
+
+footer {
+    padding: 50px; 
+    color: rgb(249, 255, 182, 0.40);
+}
+
