@@ -16,5 +16,9 @@
   "license": "",
   "dependencies": {
     "heroku": "^7.51.0"
+  }, 
+  "engines": {
+    "node": "0.8.8", 
+    "npm": "1.1.65"
   }
 }
