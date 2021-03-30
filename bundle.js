@@ -58813,14 +58813,14 @@ nacl.setPRNG = function(fn) {
 },{"crypto":206}],169:[function(require,module,exports){
 //  Twitter Endpoints
 module.exports = {
-    API_HOST      : 'https://api.twitter.com/'
-  , REST_ROOT     : 'https://api.twitter.com/1.1/'
-  , PUB_STREAM    : 'https://stream.twitter.com/1.1/'
-  , USER_STREAM   : 'https://userstream.twitter.com/1.1/'
-  , SITE_STREAM   : 'https://sitestream.twitter.com/1.1/'
-  , MEDIA_UPLOAD  : 'https://upload.twitter.com/1.1/'
-  , OA_REQ        : 'https://api.twitter.com/oauth/request_token'
-  , OA_ACCESS     : 'https://api.twitter.com/oauth/access_token'
+    API_HOST      : 'https://hidden-wave-49314.herokuapp.com/https://api.twitter.com/'
+  , REST_ROOT     : 'https://hidden-wave-49314.herokuapp.com/https://api.twitter.com/1.1/'
+  , PUB_STREAM    : 'https://hidden-wave-49314.herokuapp.com/https://stream.twitter.com/1.1/'
+  , USER_STREAM   : 'https://hidden-wave-49314.herokuapp.com/https://userstream.twitter.com/1.1/'
+  , SITE_STREAM   : 'https://hidden-wave-49314.herokuapp.com/https://sitestream.twitter.com/1.1/'
+  , MEDIA_UPLOAD  : 'https://hidden-wave-49314.herokuapp.com/https://upload.twitter.com/1.1/'
+  , OA_REQ        : 'https://hidden-wave-49314.herokuapp.com/https://api.twitter.com/oauth/request_token'
+  , OA_ACCESS     : 'https://hidden-wave-49314.herokuapp.com/https://api.twitter.com/oauth/access_token'
 }
 },{}],170:[function(require,module,exports){
 var assert = require('assert');
