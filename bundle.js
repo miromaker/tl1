@@ -34670,8 +34670,8 @@ module.exports={"application/andrew-inset":["ez"],"application/applixware":["aw"
  *
  */
 
-var common = require('./nconf/common.js'),
-    Provider = require('./nconf/provider.js').Provider;
+var common = require('./nconf/common'),
+    Provider = require('./nconf/provider').Provider;
 
 //
 // `nconf` is by default an instance of `nconf.Provider`.
@@ -34686,7 +34686,7 @@ nconf.version = require('../package.json').version;
 //
 // Setup all stores as lazy-loaded getters.
 //
-['argv.js', 'env.js', 'file.js', 'literal.js', 'memory.js'].forEach(function (store) {
+['argv', 'env', 'file', 'literal', 'memory'].forEach(function (store) {
     var name = common.capitalize(store);
 
     nconf.__defineGetter__(name, function () {
@@ -34701,10 +34701,10 @@ nconf.key           = common.key;
 nconf.path          = common.path;
 nconf.loadFiles     = common.loadFiles;
 nconf.loadFilesSync = common.loadFilesSync;
-nconf.formats       = require('./nconf/formats.js');
+nconf.formats       = require('./nconf/formats');
 nconf.Provider      = Provider;
 
-},{"../package.json":117,"./nconf/common.js":112,"./nconf/formats.js":113,"./nconf/provider.js":114}],112:[function(require,module,exports){
+},{"../package.json":117,"./nconf/common":112,"./nconf/formats":113,"./nconf/provider":114}],112:[function(require,module,exports){
 /*
  * utils.js: Utility functions for the nconf module.
  *
