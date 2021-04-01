@@ -1,5 +1,7 @@
-(function () {
-  'use strict';
+(function (factory) {
+  typeof define === 'function' && define.amd ? define(factory) :
+  factory();
+}((function () { 'use strict';
 
   // Tally tweets at regular time intervals forever, providing the current results
 
@@ -75,4 +77,4 @@
     connectedCb: connectedCb,         // optional
   });
 
-}());
+})));
