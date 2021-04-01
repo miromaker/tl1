@@ -34686,7 +34686,7 @@ nconf.version = require('../package.json').version;
 //
 // Setup all stores as lazy-loaded getters.
 //
-['argv', 'env', 'file', 'literal', 'memory'].forEach(function (store) {
+['argv.js', 'env.js', 'file.js', 'literal.js', 'memory.js'].forEach(function (store) {
     var name = common.capitalize(store);
 
     nconf.__defineGetter__(name, function () {
