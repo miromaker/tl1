@@ -34670,8 +34670,8 @@ module.exports={"application/andrew-inset":["ez"],"application/applixware":["aw"
  *
  */
 
-var common = require('./nconf/common'),
-    Provider = require('./nconf/provider').Provider;
+var common = require('./nconf/common.js'),
+    Provider = require('./nconf/provider.js').Provider;
 
 //
 // `nconf` is by default an instance of `nconf.Provider`.
@@ -34701,10 +34701,10 @@ nconf.key           = common.key;
 nconf.path          = common.path;
 nconf.loadFiles     = common.loadFiles;
 nconf.loadFilesSync = common.loadFilesSync;
-nconf.formats       = require('./nconf/formats');
+nconf.formats       = require('./nconf/formats.js');
 nconf.Provider      = Provider;
 
-},{"../package.json":117,"./nconf/common":112,"./nconf/formats":113,"./nconf/provider":114}],112:[function(require,module,exports){
+},{"../package.json":117,"./nconf/common.js":112,"./nconf/formats.js":113,"./nconf/provider.js":114}],112:[function(require,module,exports){
 /*
  * utils.js: Utility functions for the nconf module.
  *
