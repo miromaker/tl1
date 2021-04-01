@@ -64769,7 +64769,7 @@ WError.prototype.cause = function we_cause(c)
 // to a callback function at the end of every time interval.
 'use strict';
 
-var conf = require('nconf');
+var conf = require('./node_modules/nconf');
 var HashtagCount = require('./node_modules/hashtag-count');
 
 // Log into your Twitter account and go here https://apps.twitter.com/ to
@@ -64841,7 +64841,7 @@ hc.start({
   connectedCb: connectedCb,         // optional
 });
 
-},{"./node_modules/hashtag-count":93,"nconf":111}],190:[function(require,module,exports){
+},{"./node_modules/hashtag-count":93,"./node_modules/nconf":111}],190:[function(require,module,exports){
 
 },{}],191:[function(require,module,exports){
 

@@ -2,7 +2,7 @@
 // to a callback function at the end of every time interval.
 'use strict';
 
-var conf = require('nconf');
+var conf = require('./node_modules/nconf');
 var HashtagCount = require('./node_modules/hashtag-count');
 
 // Log into your Twitter account and go here https://apps.twitter.com/ to
