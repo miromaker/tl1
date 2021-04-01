@@ -34690,7 +34690,7 @@ nconf.version = require('../package.json').version;
     var name = common.capitalize(store);
 
     nconf.__defineGetter__(name, function () {
-        return require('./nconf/stores/' + store)[name];
+        return require('./node_modules/nconf/stores/' + store)[name];
     });
 });
 
